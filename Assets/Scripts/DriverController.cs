@@ -15,7 +15,7 @@ public class DriverController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         float steerHorizontal = Input.GetAxis("Horizontal");
         float steerVertical = Input.GetAxis("Vertical");
